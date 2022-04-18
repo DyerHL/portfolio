@@ -1,0 +1,85 @@
+.about {
+    padding: 1px;
+}
+
+.body-about {
+    background-color: #c1cd379f;
+    padding: 50px;
+}
+
+.fill {
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 75px 50px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 50px;
+}
+
+.fill::after {
+    content: "";
+    background-color: #3d7340;
+    background-image: url(../assets/banner.png);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .fill:hover::after {
+    top: 0px;
+    left: 0px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+.contact-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+    color: white;
+    background-color: #3d7340bc;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+}
+.card-div {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    min-width: 171px;
+}
+.contact-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-img{
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px
+}
+.link-text {
+    text-decoration: none;
+    color: white;
+}
+.link-text:hover {
+    color: #3d7340bc;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px white;
+}
