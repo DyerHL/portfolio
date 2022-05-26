@@ -1,0 +1,32 @@
+{
+    "individualProjects": [
+        {
+            "title": "Cross-Stitch Catalogue",
+            "featurePhoto": "https://user-images.githubusercontent.com/86806913/153327981-1d0a5455-8588-4a69-9faf-72f5161e5482.png",
+            "github": "https://github.com/DyerHL/cross-stitch-catalogue",
+            "detailPhoto": "https://user-images.githubusercontent.com/86806913/142733688-3e95650b-8e36-4f98-971d-11df689472ed.png",
+            "description": "A front end app created using Firebase."
+        },
+        {
+            "title": "React Hoarder",
+            "featurePhoto": "https://user-images.githubusercontent.com/86806913/142733743-3d43a7e0-c225-44fb-aa48-a958d4b21404.png",
+            "github": "https://github.com/DyerHL/react-horder",
+            "detailPhoto": "https://user-images.githubusercontent.com/86806913/146847160-c9ea16a4-d94f-428b-9d92-9583da3f9278.png",
+            "description": "React Hoarder is a web app designed for the user to store their favorite items. Similar to a shopping wishlist, or Pinterest. It utilizes the React framework to build the app along with css styling and Firebase to store JSON data. Created to exercise knowledge in React routing and proptypes - this app met MVP by being able to create, read, update, and delete items. As well as, having a single view to read more details about a selected item, and using google authentication. The app also met team stretch goals to assign a 'favorite' attribute to an items and being able to view favorites in a seperate view. This app was completed over the course of 7 days by 4 students on a part-time basis."
+        },
+        {
+            "title": "Hip Hop, Pizza, and Wangs",
+            "featurePhoto": "https://github.com/DyerHL/hip-hop-pizza-and-wangs-code-lizards/raw/main/instructions/hhpw-record.png",
+            "github": "https://github.com/DyerHL/hip-hop-pizza-and-wangs",
+            "detailPhoto": "https://user-images.githubusercontent.com/86806913/134776464-5160066c-7df8-41e5-9d07-1d38756d0eeb.PNG",
+            "description": "description"
+        },
+        {
+            "title": "GitSub",
+            "featurePhoto": "https://user-images.githubusercontent.com/86806913/142950775-ea3f2ce9-e141-4173-9599-2fe90a82ebc3.png",
+            "github": "https://github.com/DyerHL/gitsub-sour-mangos",
+            "detailPhoto": "https://user-images.githubusercontent.com/78558344/129642202-e5862aee-49bb-48e1-825e-112839bab957.png",
+            "description": "gitsub"
+        }
+    ]
+}

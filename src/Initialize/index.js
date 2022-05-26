@@ -7,15 +7,12 @@ import Technologies from '../components/Technologies';
 
 function Initialize() {
   return (
-    <div className="App">
+    <div className="app">
       <Navbar />
-      <br />
-      <br />
-      <br />
       <About />
-      <Contact />
-      <Projects />
       <Technologies />
+      <Projects />
+      <Contact />
     </div>
   );
 }

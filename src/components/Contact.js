@@ -7,8 +7,10 @@ import Halie from '../assets/Halie.pdf';
 
 export default function Contact() {
   return (
-    <div className="contact">
-      <div className="fill">Contact</div>
+    <div className="contact" id="contact">
+      <div className='fill-center'>
+        <div className="contact-fill">Contact</div>
+      </div>
       <div className="contact-cards-container">
         <div className="card-div">
           <card className="contact-card">
@@ -31,24 +33,8 @@ export default function Contact() {
             <div className="contact-img">
               <img
                 className="card-logo"
-                src={phone}
-                alt="phone"
-                style={{ width: '100px' }}
-              />
-            </div>
-            <div className="contact-text">
-              <div>Phone:</div>
-              <div>423-361-0665</div>
-            </div>
-          </card>
-        </div>
-        <div className="card-div">
-          <card className="contact-card">
-            <div className="contact-img">
-              <img
-                className="card-logo"
                 src={linkedin}
-                alt="linedin"
+                alt="linkedin"
                 style={{ width: '100px' }}
               />
             </div>
@@ -83,6 +69,22 @@ export default function Contact() {
               >Resume
               </a>
               <br />
+            </div>
+          </card>
+        </div>
+        <div className="card-div">
+          <card className="contact-card">
+            <div className="contact-img">
+              <img
+                className="card-logo"
+                src={phone}
+                alt="phone"
+                style={{ width: '100px' }}
+              />
+            </div>
+            <div className="contact-text">
+              <div>Phone:</div>
+              <div>423-361-0665</div>
             </div>
           </card>
         </div>

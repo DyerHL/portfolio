@@ -19,19 +19,19 @@ export default function Navbar() {
       <div className="" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <a className="nav-link" to="/about">ABOUT
+            <a className="nav-link" href="#about">ABOUT
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" to="/agents">CONTACT
+            <a className="nav-link" href="#contact">CONTACT
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" to="/listings">PROJECTS
+            <a className="nav-link" href="#projects">PROJECTS
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" to="/contact">TECHNOLOGIES
+            <a className="nav-link" href="#tech">TECHNOLOGIES
             </a>
           </li>
         </ul>
