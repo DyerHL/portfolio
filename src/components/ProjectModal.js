@@ -21,9 +21,9 @@ export default function ProjectModal({project}) {
             <Modal.Title>{project.title}</Modal.Title>
           </Modal.Header>
           <Modal.Body>{project.description}</Modal.Body>
-          <img src={project.detailPhoto} className="card-img" alt="item" />
+          <img src={project.detailPhoto} className="card-img-modal" alt="item" />
           <Modal.Footer>
-            <Button bsPrefix='innermodal-button' onClick={handleClose}>
+            <Button bsPrefix='innermodal-button' href={project.github}>
               Github Repo
             </Button>
             <Button bsPrefix='innermodal-button' onClick={handleClose}>
