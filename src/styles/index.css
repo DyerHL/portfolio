@@ -1,5 +1,8 @@
 .navbar {
-    
+    font-size: large;
+}
+.nav-item:hover {
+text-decoration: underline;
 }
 .app {
     display: flex;
@@ -241,6 +244,7 @@
 .card-img {
     border: 1px solid black;
     margin: 0px 0px 10px 0px;
+    max-height: 200px;
 }
 .modal-button{
     color: black;

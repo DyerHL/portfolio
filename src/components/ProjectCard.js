@@ -9,7 +9,7 @@ export default function ProjectCard({ project }) {
   return (
     <div className="project-card">
       <div className="card-body">
-        <h4 className="card-title">{project.title}</h4>
+        <div className="card-title">{project.title}</div>
         <img src={project.featurePhoto} className="card-img" alt="item" />
         <div>
           <ProjectModal project={project}/>
