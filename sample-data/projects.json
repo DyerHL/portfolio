@@ -1,0 +1,9 @@
+{
+    "projects": {
+        "title": "Cross-Stitch Catalogue",
+        "featurePhoto": "https://user-images.githubusercontent.com/86806913/153327981-1d0a5455-8588-4a69-9faf-72f5161e5482.png",
+        "github": "https://github.com/DyerHL/cross-stitch-catalogue",
+        "detailPhoto": "https://user-images.githubusercontent.com/86806913/146847160-c9ea16a4-d94f-428b-9d92-9583da3f9278.png",
+        "description": "A front end app created using Firebase."
+    }
+}
